@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Sinatra Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinatra Omnicalc 3</title>
+    <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+    }
+    </style>
+</head>
 
-  <body>
-    <%= yield %>
-  </body>
+<body>
+    <div class="navbar">
+    <div><a href="/umbrella">Umbrella</a></div>
+    <div><a href="/message">Single AI message</a></div>
+    <div><a href="/chat">AI Chat</a></div>
+  </div>
+
+</body>
+
 </html>
